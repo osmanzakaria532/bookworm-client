@@ -5,6 +5,11 @@ This repository now includes:
 - Node.js + Express backend in a **single file**: `index.js`
 
 ## Run frontend
+# BookWorm Client
+
+React + Tailwind implementation of BookWorm: a role-based book recommendation and reading tracker app.
+
+## Run
 
 ```bash
 npm install
