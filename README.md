@@ -1,26 +1,41 @@
-# BookWorm Frontend
+# BookWorm Client + Backend API
 
-This repository is now **frontend-only**.
+This repository now includes:
+- React + Tailwind frontend (Vite)
+- Node.js + Express backend in a **single file**: `index.js`
 
-- Stack: React + Vite + Tailwind CSS
-- Purpose: Book recommendation and reading tracker UI
-- Backend: removed from this setup (integrate with a separate API service)
+## Run frontend
+# BookWorm Client
 
-## Run locally
+React + Tailwind implementation of BookWorm: a role-based book recommendation and reading tracker app.
+
+## Run
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Run backend (single-file API)
 
 ```bash
-npm run build
-npm run preview
+npm install
+npm run server
 ```
 
-## Demo admin credentials (frontend mock flow)
+Backend base URL: `http://localhost:5000`
+
+## Demo admin
 
 - Email: `admin@bookworm.app`
 - Password: `Admin@1234`
+
+## API overview (index.js)
+
+- Auth: register/login
+- Protected books browse/details
+- Library shelves + progress update
+- Review submit + admin moderation
+- Recommendation endpoint
+- Tutorials + admin tutorial management
+- Admin dashboard, user roles, books, genres
